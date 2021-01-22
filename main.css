@@ -1,0 +1,9 @@
+.jumbotron {
+	background-image: url("./img/g903-herofeature-3-desktop.jpg");
+	height: 400px ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: green;
+	text-align: center;
+}
