@@ -1,5 +1,5 @@
 <?php
-$title = "Bikes e-SHOP";
+$title = "Mouse e-SHOP";
 ob_start();
 ?>
 
@@ -10,7 +10,7 @@ ob_start();
     <hr class="my-4">
     <p></p>
     <p class="lead">
-        <a class="btn btn-primary btn-lg" href="listeProduits.php" role="button">Meilleures ventes</a>
+        <a class="btn btn-outline-primary btn-lg" href="listeProduits.php" role="button">liste de produits</a>
     </p>
 </div>
 
