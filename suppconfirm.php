@@ -18,7 +18,7 @@ $delete->execute();
     <?php
     if ($delete) {
         echo "<p class='alert alert-dismissible alert-success m-5 display-4'>Le produit à bien été supprimé !</p>";
-        echo "<a class='btn btn-primary btn-lg' href='listeProduits.php'>Retour a la liste des produits</a>";
+        echo "<a class='btn btn-primary btn-lg' href='listeProduit.php'>Retour a la liste des produits</a>";
     } else {
         echo "<p class='alert-danger'>Erreur lors de la supression du produit</p>";
     }

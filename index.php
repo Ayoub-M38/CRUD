@@ -10,7 +10,7 @@ ob_start();
     <hr class="my-4">
     <p></p>
     <p class="lead">
-        <a class="btn btn-outline-primary btn-lg" href="listeProduits.php" role="button">liste de produits</a>
+        <a class="btn btn-outline-primary btn-lg" href="listeProduit.php" role="button">liste de produits</a>
     </p>
 </div>
 

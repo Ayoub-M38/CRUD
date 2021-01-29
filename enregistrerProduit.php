@@ -49,10 +49,11 @@ $requete_insertion->bindParam(4, $prix_produit);
 
 if ($requete_insertion->execute(array($nom_produit, $description_produit, $image_produit, $prix_produit))) {
 
-    echo "<p class='alert-success'>Votre produit à bien été ajouté !</p>";
-    echo "<a href='listeProduits.php' class='btn btn-outline-success'>Retour à la liste des produit</a>";
+
+    echo "<div class='container text-center'><p class='alert-success p-3 m-3 font-weight-bold'>Votre produit à bien été ajouté !</p></div>";
+    echo "<div class='container text-center'><a href='listeProduit.php' class='btn btn-outline-success p-3 m-3 font-weight-bold'>Retour à la liste des produit</a></div>";
 } else {
-    echo "<p class='alert-danger'>Erreur: Merci de remplir tous les champs</p>";
+    echo "<p class='alert-danger p-3 m-2 font-weight-bold'>Erreur: Merci de remplir tous les champs</p>";
 }
 
 
@@ -62,17 +63,19 @@ if ($requete_insertion->execute(array($nom_produit, $description_produit, $image
 
 
 
-/*
-$description_produit = $_POST['description_produit'];
-$image_produit = $_POST['image_produit'];
-$prix_produit = $_POST['prix_produit'];
 
 
 /*
-var_dump($description_produit);
-var_dump($image_produit);
-var_dump($prix_produit);
-*/
+    $description_produit = $_POST['description_produit'];
+    $image_produit = $_POST['image_produit'];
+    $prix_produit = $_POST['prix_produit'];
+
+
+    /*
+    var_dump($description_produit);
+    var_dump($image_produit);
+    var_dump($prix_produit);
+    */
 
 // Call the template var
 

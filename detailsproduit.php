@@ -7,8 +7,8 @@ require("config/db.php");
 
 ?>
 <div class="container">
-<div class="display-3 text-center m-5 text-primary font-weight-bold">DETAILS du produit</div>
-    
+    <div class="display-3 text-center m-5 text-primary font-weight-bold">DETAILS du produit</div>
+
 
     <?php
     $sql = "SELECT * FROM produits WHERE id_produit = ?";
@@ -44,9 +44,9 @@ require("config/db.php");
             </tbody>
         </table>
         <div class="text-center">
-        <a href="listeProduits.php" class="btn btn-primary m-5 btn-lg">Retour à la liste des produits</a>
+            <a href="listeProduit.php" class="btn btn-primary m-5 btn-lg">Retour à la liste des produits</a>
         </div>
-    </div>
+</div>
 
 <?php
     } else {
